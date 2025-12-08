@@ -1,0 +1,232 @@
+#header {
+    height: 85px;
+    width: 100vw;
+    display: flex;
+}
+
+.header {
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+}
+
+.logo {
+    display: flex;
+    width: auto;
+    justify-content: space-between;
+    font-size: 30px;
+    cursor: pointer;
+
+}
+
+.logo-img {
+    width: 50px;
+    padding-right: 10px;
+}
+
+.header-logolabel {
+    margin: 0;
+    display: none;
+}
+
+.nav-area {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    font-size: 20px;
+    display: none;
+}
+
+.nav-button {
+    cursor: pointer;
+}
+
+.right-sect {
+    display: flex;
+    width: auto;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.lang {
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.sign-button {
+    height: 10%;
+    padding: 5px;
+    border: 2px solid rgb(90, 35, 29);
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.burger-menu {
+    background-color: red;
+    aspect-ratio: 1/1;
+    height: 40px;
+    background: url("/img/menu.png") center center no-repeat;
+    background-size: 60%;
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
+@media (min-width: 500px) {
+#header {
+    height: 85px;
+    width: 100vw;
+    min-width: 500px;
+    display: flex;
+}
+
+.header {
+    padding: 0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    width: auto;
+    justify-content: space-between;
+    font-size: 30px;
+    cursor: pointer;
+
+}
+
+.logo-img {
+    width: 50px;
+    padding-right: 10px;
+}
+
+.header-logolabel {
+    margin: 0;
+    display: none;
+}
+
+.nav-area {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+.nav-button {
+    cursor: pointer;
+}
+
+.right-sect {
+    display: flex;
+    width: auto;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.lang {
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.sign-button {
+    height: 10%;
+    padding: 5px;
+    border: 2px solid rgb(90, 35, 29);
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.burger-menu {
+    display: none;
+}
+
+.burger-menu {
+    display: none;
+}
+}
+
+
+
+
+
+
+
+
+
+@media (min-width: 900px) {
+#header {
+    height: 85px;
+    width: 50vw;
+    min-width: 900px;
+}
+
+.header {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    font-size: 40px;
+    cursor: pointer;
+    width: auto;
+}
+
+.header-logolabel {
+    margin: 0;
+    display: block;
+    opacity: 1;
+    flex-wrap: nowrap;
+}
+
+.logo-img {
+    width: 50px;
+    padding-right: 10px;
+}
+
+.nav-area {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    font-size: 25px;
+}
+
+.nav-button {
+    cursor: pointer;
+}
+
+.right-sect {
+    display: flex;
+    width: 15%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.lang {
+    cursor: pointer;
+}
+
+.sign-button {
+    padding: 5px;
+    border: 2px solid rgb(90, 35, 29);
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
+}
