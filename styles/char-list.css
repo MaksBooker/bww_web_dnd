@@ -2,7 +2,7 @@ body {
     margin: 0px;
     display: flex;
     flex-direction: column;
-
+    overflow-x: hidden;
 }
 
 p {
@@ -701,6 +701,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow-x: hidden;
 }
 
 p {
