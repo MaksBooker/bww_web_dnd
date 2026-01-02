@@ -63,7 +63,7 @@
 
 
 
-@media (min-width: 500px) {
+@media screen and (min-width: 500px) {
 #footer{
     background-color: rgb(98, 124, 128);
     /* height: 10vh; */
@@ -130,7 +130,7 @@
 
 
 
-@media (min-width: 900px) {
+@media screen and (min-width: 900px) {
 #footer{
     background-color: rgb(98, 124, 128);
     /* height: 10vh; */
