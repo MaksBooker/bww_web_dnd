@@ -80,7 +80,7 @@
 
 
 
-@media (min-width: 500px) {
+@media screen and (min-width: 500px) {
 #header {
     height: 85px;
     width: 100vw;
@@ -164,7 +164,7 @@
 
 
 
-@media (min-width: 900px) {
+@media screen and (min-width: 900px) {
 #header {
     height: 85px;
     width: 50vw;
